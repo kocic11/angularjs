@@ -1,0 +1,14 @@
+{
+    "name": {
+        "firstName": "FirstName",
+        "lastName": "LastName"
+    },
+    "approved": true,
+    "denied": false,
+    "ssn": "111222333",
+    "ssnChanged": false,
+    "status": "APPROVED",
+    "username": "username",
+    "password": "password",
+    "email": "email@oracle.com"
+}

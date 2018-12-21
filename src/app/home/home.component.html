@@ -1,9 +1,7 @@
-<h1>Home</h1>
-
-<button (click)="getPatients()">Click me</button>
-
 <h1>Patients</h1>
 
+<button (click)="getPatients()">Submit</button>
+<p></p>
 <ul *ngIf="patients">
   <li *ngFor="let patient of patients">
     <p>{{ patient.id }} {{ patient.name.firstName }} {{ patient.name.lastName }} {{ patient.username }} {{ patient.ssn }} {{ patient.status }}</p>

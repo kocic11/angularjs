@@ -35,7 +35,7 @@ export interface PatientName {
 }
 
 const params = new HttpParams()
-  .set('lastname', 'LastName')
+  .set('lastName', 'LastName')
   .set('ssn', "333");
 
 @Injectable({

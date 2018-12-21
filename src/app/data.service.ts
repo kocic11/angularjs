@@ -3,10 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from "rxjs";
 
 export interface Patient {
-  name: {
-    firstName: string;
-    lastName: string;
-  };
+  name: PatientName;
   approved: boolean;
   denied: boolean;
   ssn: string;
@@ -15,6 +12,11 @@ export interface Patient {
   username: string;
   password: string;
   email: string;
+}
+
+export interface PatientName {
+  firstName: string;
+  lastName: string;
 }
 
 const params = new HttpParams()

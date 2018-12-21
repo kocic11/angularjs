@@ -17,11 +17,6 @@ export interface Patient {
   email: string;
 }
 
-export interface PatientName {
-  firstname: string;
-  lastname: string;
-}
-
 const params = new HttpParams()
   .set('lastName', 'LastName')
   .set('ssn', "333");
